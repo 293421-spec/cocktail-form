@@ -1,17 +1,26 @@
-# React + Vite
+# Cocktail Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Formularz do dodawania koktajli — Next.js + NestJS + PostgreSQL.
 
-Currently, two official plugins are available:
+## Live
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[cocktail-form-production.up.railway.app](https://cocktail-form-production.up.railway.app)
 
-## React Compiler
+## Technologie
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend** — Next.js
+- **Backend** — NestJS REST API
+- **Baza danych** — PostgreSQL
+- **Hosting** — Railway
 
-## Autor 
+## Uruchomienie
 
-Hanna Bielecka
+```bash
+npm install
+npm run dev
+```
 
+Otwórz [http://localhost:3000](http://localhost:3000) w przeglądarce.
+
+> Pamiętaj o pliku `.env.local` z adresem API:
+> `NEXT_PUBLIC_API_URL=https://your-api.railway.app`
